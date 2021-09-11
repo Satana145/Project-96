@@ -14,7 +14,7 @@ var firebaseConfig = {
   
   document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
   
-  function addRoom()
+  function add_room()
   {
     room_name = document.getElementById("room_name").value;
   
